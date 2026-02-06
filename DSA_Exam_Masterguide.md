@@ -1424,35 +1424,243 @@ int main() {
 
 ---
 
+## Practice Problems by Topic (with Seminar Source)
+
+### CRITICAL -- Union-Find / Disjoint Set (Sem13)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Number of Provinces | Sem13 | Classic connected components with DSU |
+| Clusters | Sem13 | K-clustering variant, stop Kruskal early |
+| Find Critical and Pseudo-critical Edges | Sem13 | Advanced MST + DSU |
+| final_exam_2023 Part1 Task2 | Final 2023 | Components with size divisible by K (BFS/DFS/UF) |
+| final_exam_2024 Task3 | Final 2024 | Count non-tree components (cycle detection with UF) |
+| final_exam_2024 Task4 | Final 2024 | MST weight for components with size % K == 0 |
+| final_exam_2025 Task4 | Final 2025 | K-clustering with max edge tracking |
+
+### CRITICAL -- BFS / DFS Graph Traversal (Sem11)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| All Paths From Source to Target | Sem11 | DFS path enumeration |
+| Cycle Detection (undirected) | Sem11 | DFS with parent tracking |
+| Cycle Detection (directed) | Sem11 | DFS with coloring |
+| Course Schedule | Sem11 | Topological sort / cycle in DAG |
+| Shortest Path With Alternating Colors | Sem11 | Modified BFS |
+| Преброяване на области | Sem11 | BFS/DFS flood fill |
+| Път в граф | Sem11 | BFS shortest path |
+| Студентски празник | Sem11 | Graph traversal |
+| final_exam_2025 Task2 | Final 2025 | Check if graph is a tree |
+| final_exam_2024 Task3 | Final 2024 | Cycle detection in components |
+
+### CRITICAL -- Hash Maps / Frequency Counting (Sem07)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Two Sum | Sem07 | Classic hash map lookup |
+| Isomorphic Strings | Sem07 | Two maps bijection check |
+| Group Anagrams | Sem07 | Group by sorted key |
+| Subarray Sum Equals K | Sem07 | Prefix sum + hash map |
+| 0-1 подмасив | Sem07 | Prefix sum variant |
+| Longest Consecutive Sequence | Sem07 | Set/map for O(n) |
+| Count Special Triplets | Sem07 | Hash map counting |
+| Repeated DNA Sequences | Sem07 | Rolling hash / hash set |
+| LRU Cache | Sem07 | Hash map + doubly linked list |
+| Minimum Window Substring | Sem07 | Sliding window + frequency map |
+| Клюкарстване | Sem07 | Hash map |
+| Find Duplicate Subtrees | Sem07 | Tree serialization + hash map |
+| final_exam_2024 Task1 | Final 2024 | Frequency-of-frequency analysis |
+| final_exam_2025 Task3 | Final 2025 | Prefix sum + hash map (count + longest) |
+
+### CRITICAL -- MST: Kruskal's & Prim's (Sem13)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Min Cost To Connect All Points | Sem13 | Prim's or Kruskal's |
+| Clusters | Sem13 | Kruskal stopped early |
+| Find Critical and Pseudo-critical Edges | Sem13 | Try removing/forcing each edge |
+| Number of Provinces | Sem13 | Union-Find components |
+| final_exam_2024 Task4 | Final 2024 | MST per component, filter by size |
+| final_exam_2025 Task4 | Final 2025 | K-clustering with Kruskal |
+
+### HIGH -- Binary Search (Sem03)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| First Bad Version | Sem03 | Binary search on answer |
+| Search Insert Position | Sem03 | lower_bound equivalent |
+| Sqrt(x) | Sem03 | Binary search on answer |
+| Peak Index in a Mountain Array | Sem03 | Ternary/binary search |
+| Search in a 2D Matrix | Sem03 | Binary search or jump search |
+| Puncakes | Sem03 | Binary search |
+| Склад за ядки | Sem03 | Binary search / two pointers |
+| final_exam_2024 Task2 | Final 2024 | Closest element in descending array |
+| Exam_02 Task1 (midterm) | Midterm 2 | Binary search on answer (min eating speed) |
+
+### HIGH -- Priority Queue / Heap (Sem10)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Last Stone Weight | Sem10 | Max-heap simulation |
+| Kth Largest Element In Array | Sem10 | Min-heap of size K |
+| K Closest Points To Origin | Sem10 | Max-heap of size K |
+| Task Scheduler | Sem10 | Greedy + heap |
+| Merge k Sorted Lists | Sem10 | Min-heap merge |
+| Find Median from Data Stream | Sem10 | Two heaps (max + min) |
+| Рожден ден | Sem10 | Heap |
+| Фитнес Зала | Sem10 | Heap |
+| final_exam_2023 Part2 Task1 | Final 2023 | Chair assignment with heap simulation |
+| Exam_05 Task2 (midterm) | Midterm 5 | K-th smallest with max-heap |
+
+### HIGH -- Tree DFS / BST (Sem06)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Inorder / Preorder / Postorder Traversal | Sem06 | Basic traversals |
+| Level Order Traversal | Sem06 | BFS on tree |
+| MaxDepth / MinDepth Of Binary Tree | Sem06 | Recursive DFS |
+| Validate Binary Search Tree | Sem06 | Inorder or range checking |
+| Symmetric Tree | Sem06 | Mirror DFS |
+| Right Side View Of Binary Tree | Sem06 | BFS level-order, take last per level |
+| Lowest Common Ancestor | Sem06 | DFS |
+| Search In BST | Sem06 | BST navigation |
+| Родословно дърво | Sem06 | Tree problem |
+| Волейболни другарчета | Sem06 | Tree/set problem |
+| Маската на Зоро | Sem06 | Set/map problem |
+| Binary Tree Cameras | Sem08 | Post-order DFS with state (greedy) |
+| final_exam_2024 Task5 | Final 2024 | Minimum dominating set (same pattern as Cameras!) |
+
+### HIGH -- Dynamic Programming (Sem09)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Fibonacci Number | Sem09 | Basic 1D DP (memo + tabulation) |
+| Coin Change | Sem09 | 1D DP (memo + tabulation) |
+| House Robber | Sem09 | 1D DP (memo + tabulation) |
+| Unique Paths | Sem09 | 2D grid DP |
+| Максимален път в матрица | Sem09 | 2D grid DP (max path) |
+| Longest Common Subsequence | Sem09 | 2D DP on strings |
+| Longest Increasing Subsequence | Sem09 | 1D DP O(n^2) |
+| final_exam_2025 Task5 | Final 2025 | LCS |
+| Exam_04 Task2 (midterm) | Midterm 4 | 2D grid DP (min loss probability) |
+
+### HIGH -- Dijkstra / Shortest Paths (Sem12)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Network Delay | Sem12 | Classic Dijkstra |
+| Min Obsticle Removal | Sem12 | 0-1 BFS or Dijkstra |
+| Min Arrows to Change | Sem12 | Dijkstra variant |
+| Min Time to Visit Cell | Sem12 | Dijkstra with time constraint |
+| BDJ | Sem12 | Dijkstra |
+| Cheapest Flight K Stops | Sem12 | Bellman-Ford / modified Dijkstra |
+| Long Long | Sem12 | Bellman-Ford |
+| Exam_06 Task2 (midterm) | Midterm 6 | Modified Dijkstra with time rounding |
+
+### MEDIUM -- Sorting (Sem02)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Contains Duplicates | Sem02 | Sort + check adjacent |
+| Find Kth Largest | Sem02 | Sort or heap |
+| Find The Difference | Sem02 | Sort / counting |
+| Non-overlapping Intervals | Sem02 | Sort by end time, greedy |
+| Sort Chars By Frequency | Sem02 | Frequency + sort |
+| Squares Of Sorted Array | Sem02 | Two pointers on sorted |
+| final_exam_2025 Task1 | Final 2025 | Custom sort by A^2/B |
+| Sorting implementations | Sem02 | Bubble, Insertion, Selection, Merge, Quick, Counting sort |
+
+### MEDIUM -- Stack / Queue / Deque (Sem05)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Valid Parentheses | Sem05 | Classic stack |
+| Evaluate Reverse Polish Notation | Sem05 | Stack evaluation |
+| Daily Temperatures | Sem05 | Monotonic stack |
+| Asteroid Collision | Sem05 | Stack simulation |
+| Backspace String Compare | Sem05 | Stack or two pointers |
+| Baseball Game | Sem05 | Stack simulation |
+| Next Greater Node In Linked List | Sem05 | Monotonic stack |
+| Sliding Window Maximum | Sem05 | Monotonic deque |
+| Number Of Recent Calls | Sem05 | Queue |
+| Welcome To The Jungle | Sem05 | Stack |
+
+### MEDIUM -- Linked Lists (Sem04)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Reverse A Linked List | Sem04 | Pointer manipulation |
+| Merge Two Sorted Linked Lists | Sem04 | Two pointers / dummy head |
+| Cycle Detection | Sem04 | Floyd's slow/fast pointers |
+| Intersection Of Linked Lists | Sem04 | Two pointers |
+| Remove Nth Node From End | Sem04 | Two pointers with gap |
+| Palindrome Linked List | Sem04 | Reverse half + compare |
+| Remove Duplicates From Linked List | Sem04 | Single pass |
+
+### MEDIUM -- Sliding Window / Two Pointers (Sem01 + Sem05)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Two Sum | Sem01 | Two pointers on sorted array |
+| Valid Palindrome II | Sem01 | Two pointers |
+| Move Zeroes | Sem01 | Two pointers in-place |
+| Maximum Average Subarray I | Sem05 | Fixed-size sliding window |
+| Longest Substring Without Repeating Characters | Sem06 | Variable-size sliding window + set |
+| Exam_04 Task1 (midterm) | Midterm 4 | Longest subarray with at most K occurrences |
+
+### MEDIUM -- Topological Sort (Sem12)
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Course Schedule | Sem11 | Kahn's BFS or DFS topo sort |
+| BDJ | Sem12 | May involve topological ordering |
+
+### Mixed Practice Session (Sem08) -- Great for Exam Prep
+
+| Problem | Source | Notes |
+|---------|--------|-------|
+| Binary Tree Cameras | Sem08 | Tree DFS greedy (VERY exam-like!) |
+| Dundee The Crocodile | Sem08 | Mixed |
+| Facebook приятели | Sem08 | Graph / hash map |
+| Linked Numbers | Sem08 | Linked list + math |
+| Unique Rows | Sem08 | Hash map / set |
+| Братски бой | Sem08 | Mixed |
+| Масиви | Sem08 | Array processing |
+| Най-продаван артикул | Sem08 | Hash map frequency |
+| Намиране на елемент | Sem08 | Search |
+| Подмасив | Sem08 | Prefix sum / sliding window |
+
+---
+
 ## Study Plan
 
 ### Week 1: Lock in the Guarantees (CRITICAL topics)
 
 | Day | Focus | What to do |
 |-----|-------|------------|
-| 1 | Union-Find | Write DSU from memory 3 times. Solve: Number of Provinces, Clusters |
-| 2 | BFS/DFS | Write both from memory. Solve: Cycle Detection, Connected Components, All Paths |
-| 3 | Kruskal's MST | Combine DSU + sorting. Solve: Min Cost to Connect All Points |
-| 4 | Hash Maps | Practice frequency counting. Solve: Two Sum, Subarray Sum = K, Group Anagrams |
-| 5 | Combine | Do final_exam_2024 Task3 (cycle detection) + Task4 (MST) from scratch |
+| 1 | Union-Find | Write DSU from memory 3 times. Solve: **Number of Provinces** (Sem13), **Clusters** (Sem13) |
+| 2 | BFS/DFS | Write both from memory. Solve: **Cycle Detection** (Sem11), **Преброяване на области** (Sem11), **All Paths From Source to Target** (Sem11) |
+| 3 | Kruskal's MST | Combine DSU + sorting. Solve: **Min Cost to Connect All Points** (Sem13), **Find Critical and Pseudo-critical Edges** (Sem13) |
+| 4 | Hash Maps | Practice frequency counting. Solve: **Two Sum** (Sem07), **Subarray Sum Equals K** (Sem07), **Group Anagrams** (Sem07) |
+| 5 | Combine all Tier 1 | Do **final_exam_2024 Task3** (cycle detection) + **Task4** (MST) from scratch |
 
 ### Week 2: Strengthen (HIGH priority topics)
 
 | Day | Focus | What to do |
 |-----|-------|------------|
-| 6 | Binary Search | lower_bound, search on answer. Solve: Search 2D Matrix, Sqrt(x) |
-| 7 | Priority Queue | Min/max heap, K-th element. Solve: Kth Largest, Merge K Sorted Lists |
-| 8 | Tree DFS | Traversals + state-based DFS. Solve: Binary Tree Cameras, Validate BST |
-| 9 | DP | LCS, Coin Change, Grid DP. Solve: LCS, House Robber, Unique Paths |
-| 10 | Dijkstra | Write from memory. Solve: Network Delay Time |
+| 6 | Binary Search | lower_bound, search on answer. Solve: **Search in a 2D Matrix** (Sem03), **Sqrt(x)** (Sem03), **Склад за ядки** (Sem03) |
+| 7 | Priority Queue | Min/max heap, K-th element. Solve: **Kth Largest Element In Array** (Sem10), **Merge k Sorted Lists** (Sem10), **Find Median from Data Stream** (Sem10) |
+| 8 | Tree DFS | Traversals + state-based DFS. Solve: **Binary Tree Cameras** (Sem08), **Validate BST** (Sem06), **Lowest Common Ancestor** (Sem06) |
+| 9 | DP | LCS, Coin Change, Grid DP. Solve: **Longest Common Subsequence** (Sem09), **Coin Change** (Sem09), **Unique Paths** (Sem09), **House Robber** (Sem09) |
+| 10 | Dijkstra | Write from memory. Solve: **Network Delay** (Sem12), **Cheapest Flight K Stops** (Sem12) |
 
 ### Week 3: Simulate and Review
 
 | Day | Focus | What to do |
 |-----|-------|------------|
-| 11 | Timed mock | Do final_exam_2025 (all 5 tasks, 3h time limit) |
-| 12 | Review gaps | Re-do any tasks you couldn't solve |
-| 13 | Timed mock | Do final_exam_2024 (all 5 tasks, 3h time limit) |
+| 11 | Timed mock | Do **final_exam_2025** (all 5 tasks, 3h time limit) |
+| 12 | Review gaps | Re-do any tasks you couldn't solve. Do problems from **Sem08** (mixed practice session) |
+| 13 | Timed mock | Do **final_exam_2024** (all 5 tasks, 3h time limit) |
 | 14 | Final review | Re-read this file. Write DSU + BFS + Kruskal from memory one last time |
 
 ---
